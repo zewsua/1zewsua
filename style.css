@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    flex-direction: column;
+    position: relative;
+    font-family: Arial;
+}
+
+.google {
+    width: 500px;
+    margin: 100px auto 0 auto;
+}
+
+.google__img {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    max-width: 750px;
+    justify-content: space-around;
+    margin: 0 auto auto auto;
+}
+
+.input {
+    border: 0;
+    border-bottom: 1px black solid;
+    outline: none;
+    border-radius: 10px 10px 0 0;
+    font-size: 20px;
+}
+
+div {
+    margin-top: 20px;
+    display: flex;
+    height: 300px;
+}
+
+button, input {
+    height: 40px;
+
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    transition: .3s;
+    background: transparent;
+}
+
+button span {
+    transition: .3s;
+    margin: auto;
+    font-size: 20px;
+}
+
+button p {
+    margin: auto;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(72, 255, 0, 0.2);
+    background: #41ff00;
+}
+
+button:hover span, button:hover p {
+    color: #ff9c00;
+}
+
+.container {
+    width: 750px;
+    height: 500px;
+    margin: auto;
+    background: transparent;
+    border-radius: 20px;
+    padding: 0 20px 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container div {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container div p {
+    font-size: 20px;
+}
+
+.container div input {
+    border: 0;
+    border-bottom: 1px black solid;
+    outline: none;
+    border-radius: 10px 10px 0 0;
+    font-size: 20px;
+
+}
+
+.container button {
+    width: 70%;
+    height: 60px !important;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
